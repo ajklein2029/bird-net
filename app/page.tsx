@@ -27,7 +27,7 @@ export default function Home() {
           </div>
 
           <button>
-            <Link href="/add-data">Add Data</Link>
+            <Link href="/addData">Add Data</Link>
           </button>
 
         </div>
