@@ -8,7 +8,7 @@ import { SignUpUserSteps } from "@/components/tutorial/sign-up-user-steps";
 import { hasEnvVars } from "@/lib/utils";
 import Link from "next/link";
 
-export default function Home() {
+export default function addData() {
   return (
     <main className="min-h-screen flex flex-col items-center">
       <div className="flex-1 w-full flex flex-col gap-20 items-center">
@@ -20,15 +20,11 @@ export default function Home() {
             <AuthButton />
           </div>
         </nav>
+
+
         <div className="flex-1 flex flex-col gap-20 max-w-5xl p-5">
 
-          <div className="text-3xl font-bold text-center mt-20">
-            Welcome to Bird Net!
-          </div>
-
-          <button>
-            <Link href="/add-data">Add Data</Link>
-          </button>
+          {/* ADAM add the UI and interface for the data entry here */}
 
         </div>
 
